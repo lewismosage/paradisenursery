@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/paradisenursery/static/css/main.055fa386.css",
+    "main.js": "/paradisenursery/static/js/main.6d97f1d4.js",
+    "static/js/453.81c3b423.chunk.js": "/paradisenursery/static/js/453.81c3b423.chunk.js",
+    "static/media/BambooPalm.jpg": "/paradisenursery/static/media/BambooPalm.779ecf47e2c604e6620d.jpg",
+    "static/media/Pothos.jpg": "/paradisenursery/static/media/Pothos.9086484e8bcb7b38df24.jpg",
+    "static/media/AloeVera.jpg": "/paradisenursery/static/media/AloeVera.c8a074754ee842311586.jpg",
+    "static/media/SpiderPlant.jpg": "/paradisenursery/static/media/SpiderPlant.c4d22e3218be494ecd19.jpg",
+    "index.html": "/paradisenursery/index.html",
+    "main.055fa386.css.map": "/paradisenursery/static/css/main.055fa386.css.map",
+    "main.6d97f1d4.js.map": "/paradisenursery/static/js/main.6d97f1d4.js.map",
+    "453.81c3b423.chunk.js.map": "/paradisenursery/static/js/453.81c3b423.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.055fa386.css",
+    "static/js/main.6d97f1d4.js"
+  ]
+}
