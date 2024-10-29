@@ -1,19 +1,42 @@
 {
   "files": {
-    "main.css": "/paradisenursery/static/css/main.055fa386.css",
-    "main.js": "/paradisenursery/static/js/main.6d97f1d4.js",
-    "static/js/453.81c3b423.chunk.js": "/paradisenursery/static/js/453.81c3b423.chunk.js",
+    "main.css": "/paradisenursery/static/css/main.5ac7c7a3.css",
+    "main.js": "/paradisenursery/static/js/main.0cf62bab.js",
+    "static/js/453.e297f7c3.chunk.js": "/paradisenursery/static/js/453.e297f7c3.chunk.js",
+    "static/media/Moss.webp": "/paradisenursery/static/media/Moss.84921c9c4bb96014d9d5.webp",
+    "static/media/BonsaiTree.jpg": "/paradisenursery/static/media/BonsaiTree.5f75df6d5984f2258288.jpg",
+    "static/media/landingpage.jpg": "/paradisenursery/static/media/landingpage.28b9d02c3b2e8b555693.jpg",
+    "static/media/Clematis (Clematis spp.).jpg": "/paradisenursery/static/media/Clematis (Clematis spp.).870407f9f61528ee8bd0.jpg",
+    "static/media/climbers.jpg": "/paradisenursery/static/media/climbers.58293f5bc366d1486d84.jpg",
+    "static/media/Boxwood (Buxus).jpg": "/paradisenursery/static/media/Boxwood (Buxus).76e5f2d1bc311d74ae6c.jpg",
+    "static/media/Honeysuckle (Lonicera spp.).jpg": "/paradisenursery/static/media/Honeysuckle (Lonicera spp.).0ed9e86bcef6ef172212.jpg",
+    "static/media/Parsley.jpg": "/paradisenursery/static/media/Parsley.c9e8b7c901a2b599055b.jpg",
+    "static/media/Redbud (Cercis canadensis).jpg": "/paradisenursery/static/media/Redbud (Cercis canadensis).1513a01c9bbbe7add27c.jpg",
+    "static/media/Maple (Acer).jpg": "/paradisenursery/static/media/Maple (Acer).9b399c7c0530602fdd62.jpg",
+    "static/media/Climbing Rose.jpg": "/paradisenursery/static/media/Climbing Rose.216d84eff689aa5e7c0c.jpg",
+    "static/media/Creeping Thyme.jpg": "/paradisenursery/static/media/Creeping Thyme.c5c794f3370d6b09773c.jpg",
+    "static/media/Japanese Barberry (Berberis thunbergii).jpg": "/paradisenursery/static/media/Japanese Barberry (Berberis thunbergii).c3fefeba3992e60ad3ac.jpg",
+    "static/media/Lavender (Lavandula).jpg": "/paradisenursery/static/media/Lavender (Lavandula).bdecc08cfa81ac4a4802.jpg",
+    "static/media/theme.jpg": "/paradisenursery/static/media/theme.dd251946118de947c147.jpg",
+    "static/media/herbs.jpg": "/paradisenursery/static/media/herbs.44ec8c7be83ac23b02b9.jpg",
+    "static/media/Dogwood (Cornus).jpg": "/paradisenursery/static/media/Dogwood (Cornus).10863d7304678589e29a.jpg",
     "static/media/BambooPalm.jpg": "/paradisenursery/static/media/BambooPalm.779ecf47e2c604e6620d.jpg",
     "static/media/Pothos.jpg": "/paradisenursery/static/media/Pothos.9086484e8bcb7b38df24.jpg",
+    "static/media/basil.jpg": "/paradisenursery/static/media/basil.560b4b3b7714cc6c7261.jpg",
+    "static/media/Rosemary (Rosmarinus officinalis).jpg": "/paradisenursery/static/media/Rosemary (Rosmarinus officinalis).3714aec7a5c2391b2c50.jpg",
+    "static/media/mint.jpg": "/paradisenursery/static/media/mint.88e57b65ad09cc86fb4f.jpg",
+    "static/media/shrubs.jpg": "/paradisenursery/static/media/shrubs.7b99f05fc41d2312376c.jpg",
+    "static/media/trees.jpg": "/paradisenursery/static/media/trees.872bab24396635e58a83.jpg",
     "static/media/AloeVera.jpg": "/paradisenursery/static/media/AloeVera.c8a074754ee842311586.jpg",
+    "static/media/Rosemary.jpg": "/paradisenursery/static/media/Rosemary.d8b0762ab2a28c014471.jpg",
     "static/media/SpiderPlant.jpg": "/paradisenursery/static/media/SpiderPlant.c4d22e3218be494ecd19.jpg",
     "index.html": "/paradisenursery/index.html",
-    "main.055fa386.css.map": "/paradisenursery/static/css/main.055fa386.css.map",
-    "main.6d97f1d4.js.map": "/paradisenursery/static/js/main.6d97f1d4.js.map",
-    "453.81c3b423.chunk.js.map": "/paradisenursery/static/js/453.81c3b423.chunk.js.map"
+    "main.5ac7c7a3.css.map": "/paradisenursery/static/css/main.5ac7c7a3.css.map",
+    "main.0cf62bab.js.map": "/paradisenursery/static/js/main.0cf62bab.js.map",
+    "453.e297f7c3.chunk.js.map": "/paradisenursery/static/js/453.e297f7c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.055fa386.css",
-    "static/js/main.6d97f1d4.js"
+    "static/css/main.5ac7c7a3.css",
+    "static/js/main.0cf62bab.js"
   ]
 }
