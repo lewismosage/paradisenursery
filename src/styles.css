@@ -1,0 +1,614 @@
+/* Global Styles */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8f5;
+}
+a {
+  text-decoration: none; 
+  color: inherit; 
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Header Navigation Styles */
+.header nav ul {
+  display: flex;
+  gap: 20px; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header nav ul li {
+  display: inline; 
+}
+
+.header nav ul li a {
+  text-decoration: none; 
+  color: white; 
+  font-weight: bold;
+  padding: 0.5em;
+  transition: color 0.3s ease;
+  cursor: pointer; 
+}
+
+.header nav ul li a:hover {
+  color: #ddd; 
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+}
+
+.cart-icon .cart-count {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+  padding: 2px 6px;
+  font-size: 0.9em;
+}
+.header nav ul li a:active,
+.header nav ul li a:focus {
+  color: #ccc; 
+}
+
+/* Button Styles */
+button {
+  padding: 0.5em 1em;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  background-color: #ddd;
+  cursor: not-allowed;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(47, 133, 90, 0.4);
+}
+
+/* Image Styles */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  padding: 20px;
+  background: #e9f7ef;
+  text-align: left;
+}
+
+.hero-section .hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.hero-content {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: #333;
+}
+
+.hero-content h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hero-content p {
+  font-size: 20px;
+}
+
+.shop-now-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+
+
+/* Product Listing Styles */
+.product-listing-page {
+  color: #333;
+}
+
+.product-listing {
+  padding: 2em;
+}
+
+.plant-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5em;
+  justify-content: center;
+}
+
+.plant-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1em;
+  width: 240px;
+  text-align: center;
+  background-color: white;
+}
+
+.plant-card img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.plant-card h3 {
+  color: #333;
+}
+
+.plant-card p.description {
+  color: black;
+  font-size: 1rem;
+  margin: 0.5em 0;
+}
+
+.plant-card p.price {
+  color: green;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+.plant-card button {
+  margin-top: 1em;
+  width: 60%;
+}
+
+/* Categories Section */
+.categories-container {
+  text-align: center; 
+  margin: 30px 0;
+}
+
+.categories-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #333; 
+}
+
+/* Categories Section */
+.categories-section {
+  display: flex;
+  justify-content: center; 
+  gap: 20px;
+  flex-wrap: wrap; 
+}
+
+.category-item {
+  text-align: center;
+}
+
+.category-item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+
+/* Featured Products */
+.featured-products {
+  padding: 20px 0;
+  background: #f8f8f8;
+}
+
+.featured-products h3 {
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+
+.about-us-section {
+  padding: 2em;
+  background-color: #e9f7ef; 
+  color: #333;
+  border-radius: 8px; 
+}
+
+.about-us-section h2 {
+  font-size: 28px; 
+  margin-bottom: 1em; 
+}
+
+.about-us-section p {
+  margin-bottom: 1em; 
+  line-height: 1.6; 
+}
+.about-us-title {
+  text-align: center; 
+  margin-bottom: 1.5em; 
+}
+
+.team-members {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.team-member {
+  text-align: center; 
+  max-width: 200px; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 1em; 
+  background-color: #f8f8f8; 
+}
+
+.team-member img {
+  width: 100%; 
+  height: auto; 
+  border-radius: 50%; 
+  margin-bottom: 0.5em; 
+}
+/*Contact US Section*/
+.contact-us-title {
+  text-align: center;
+  margin-bottom: 1.5em; 
+}
+
+.contact-us-section h3 {
+  text-align: center; 
+  margin: 1.5em 0; 
+}
+
+.contact-info {
+  text-align: center; 
+  margin-bottom: 2em; 
+}
+
+.contact-form {
+  max-width: 600px; 
+  margin: 0 auto; 
+  display: flex;
+  flex-direction: column; 
+  gap: 1em; 
+}
+
+.contact-form label {
+  font-weight: bold; 
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.5em; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+}
+
+.contact-form button {
+  background-color: #4CAF50; 
+  color: white; 
+  border: none; 
+  padding: 0.75em; 
+  border-radius: 4px; 
+  cursor: pointer; 
+}
+
+.contact-form button:hover {
+  background-color: #45a049; 
+}
+
+.sectiontitle {
+  text-align: center;
+  margin: 20px 0; 
+}
+
+
+.categoriescontainer {
+  padding: 20px; 
+}
+
+.categorysection {
+  margin-bottom: 40px; 
+}
+
+.categorytitle {
+  font-size: 1.5em; 
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+
+.plantslist {
+  display: flex;
+  gap: 20px; 
+  padding-bottom: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+}
+
+.plantcard {
+  text-align: center; 
+  max-width: 200px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  padding: 10px; 
+  flex: 0 0 auto;
+}
+
+.plantimage {
+  width: 100%; 
+  height: auto; 
+  border-radius: 4px; 
+  width: 200px; 
+  height: 200px; 
+  object-fit: cover;
+
+}
+
+.plantname {
+  font-weight: bold; 
+  margin: 10px 0 5px 0; 
+}
+
+.plantdescription {
+  font-size: 0.9em; 
+  margin: 0; 
+}
+
+.plantprice {
+  font-weight: bold; 
+  color: #28a745; 
+}
+
+/* Hero Section Page 2 */
+.herosection {
+  position: relative;
+  padding: 20px;
+  background: #e9f7ef;
+  text-align: left;
+}
+
+.herosection .hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+.herocontent {
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+}
+
+.herocontent h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.herocontent p {
+  font-size: 20px;
+}
+
+.shop-now-button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f7f7f7;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4caf50; 
+  padding: 15px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.logo img {
+  height: 50px;
+  margin-right: 10px;
+}
+
+.cart-icon {
+  position: relative;
+  cursor: pointer;
+  color: white;
+}
+
+.cart-count {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: #ff5722; 
+  border-radius: 50%;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+/* Shopping Cart Styles */
+.shopping-cart {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.cart-items {
+  flex: 2;
+  padding: 20px;
+  max-height: 600px; 
+  overflow-y: auto; 
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.cart-item img {
+  height: 100px;
+  width: auto;
+  margin-right: 20px;
+}
+
+.cart-item h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.price, .subtotal {
+  color: #888;
+}
+
+.cart-item button {
+  background-color: #4caf50; 
+  color: white;
+  border: none;
+  border-radius: 1px;
+  padding: 8px 14.1px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-item button:hover {
+  background-color: #45a049; 
+}
+
+/* Cart Summary Styles */
+.cart-summary {
+  flex: 1;
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-left: 1px solid #e0e0e0;
+}
+
+.cart-summary h2 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.cart-summary button {
+  width: 100%;
+  background-color: #2196f3; 
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cart-summary button:hover {
+  background-color: #1976d2; 
+}
+/* Shopping Cart Page Styles */
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.cart-item p {
+  margin: 0.9em 0;
+}
+.cart-item p.price {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+.cart-item p.subtotal {
+  color: #4a5568;
+  font-size: 1rem;
+}
+.cart-item button:last-of-type {
+  background-color: #4caf50; 
+  margin-top: 10px; 
+  padding: 8px 12px; 
+}
+
+

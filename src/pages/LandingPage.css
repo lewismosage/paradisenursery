@@ -1,0 +1,78 @@
+/* src/pages/LandingPage.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+.landing-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Playfair Display', serif;
+  overflow: hidden;
+  color: #fff;
+  background: url('../images/landingpage.jpg') center/cover no-repeat;
+}
+
+.parallax-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  filter: blur(3px) brightness(0.1);
+  z-index: -1;
+}
+
+.content-wrapper {
+  text-align: center;
+  max-width: 800px;
+  padding: 0 20px;
+}
+
+.landing-title {
+  font-size: 4rem;
+  margin-bottom: 20px;
+  background: linear-gradient(45deg, #ffff,#aad576);
+  background-clip: text;
+  -webkit-background-clip: text; /* Vendor prefix */
+  -webkit-text-fill-color: transparent;
+  animation: textReveal 1.5s ease;
+}
+
+.landing-description {
+  font-size: 1.5rem;
+  margin-bottom: 40px;
+  animation: fadeIn 1.5s ease 0.5s forwards;
+  opacity: 0;
+}
+
+.explore-button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px 30px;
+  border: 2px solid #aad576;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.explore-button:hover {
+  background-color: #aad576;
+  color: #333;
+  transform: translateY(-3px);
+}
+
+@keyframes textReveal {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
